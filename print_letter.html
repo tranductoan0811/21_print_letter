@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+
+<body>
+  
+
+    <!-- <fieldset style="width: 400px;">
+      <legend>my Letter</legend>
+      <label for="name">Tên người nhận: </label>
+      <input type="text" id="name" name="fname" placeholder="Nhập Họ tên người nhận: "><br><br>
+      
+      <legend>
+        <style>
+          label textarea{
+            vertical-align: middle;
+          }
+        </style>
+    
+        <label>Địa chỉ: <textarea cols="30" rows="10" placeholder="Nhập địa chỉ" id="address"></textarea>
+        
+        </label><br><br/>
+      </legend>
+         
+      <legend>
+        <label for="date">Ngày gửi</label>
+        <input type="date" name = "date" placeholder="dd/mm/yyyy" id="date_send"><br><br>
+      </legend>
+
+      <button type="button" id="inbucthu">In bức thư:</button>
+    </fieldset> -->
+    <label for="name">Tên người nhận: </label>
+    <input type="text" placeholder="Họ và tên" id = "name"><br><br>
+
+    <label for="address">Địa chỉ người nhận: </label>
+    <input type="text" placeholder="Địa điểm" id = "address" style="width: 250px;"><br><br>
+
+    <label for="date_send">Ngày gửi: </label>
+    <input type="date" placeholder="DD/MM/YYYY" id = "date_send"><br><br>
+
+    <button type="button" onclick="printMyletter();">Viết thư</button><br><br>
+    <p id = "date"></p>
+    <p id="month"></p>
+    <p id = year></p>
+    <p id="result"></p>
+
+</body>
+
+</html>
+
+<script src="print_letter.js"></script>
