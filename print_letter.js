@@ -36,7 +36,8 @@ function printMyletter() {
   + "<br>" + " hùng vĩ và thơ mộng, với các bãi biển, rừng núi, hang động… Đất nước chúng tôi còn có cả kho tàng "
   + "<br>" + "ẩm thực ngon và đa dạng."
   + "<br>" + "Mong một ngày gần nhất, tôi được đón bạn tại Việt Nam."
-  + "<br><br>" + address + ", ngày " + ngay + " tháng " + thang + " nam " + nam
+  + "<br><br>" + " Best regards. "
+  + "<br><br>" + address + ", ngày " + ngay + " tháng " + thang + " năm " + nam
 
  
   ;
